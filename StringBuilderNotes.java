@@ -1,6 +1,10 @@
 public class StringBuilderNotes {
     public static void main(String[] args) {
 
+// Because String in Java is immutable.
+// StringBuilder mutable hota hai
+// StringBuilder is mutable and faster than String, especially in loops.
+
         // 1. Create StringBuilder
         StringBuilder sb = new StringBuilder("Hello");
 
@@ -13,7 +17,7 @@ public class StringBuilderNotes {
         System.out.println(sb);   // Hello, World
 
         // 4. replace() → replace part of string
-        sb.replace(6, 11, "Java");
+        sb.replace(6, 11, " Java");
         System.out.println(sb);   // Hello, Java
 
         // 5. delete() → delete part
