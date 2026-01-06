@@ -17,8 +17,8 @@ public class StringBuilderNotes {
         System.out.println(sb);   // Hello, World
 
         // 4. replace() → replace part of string
-        sb.replace(6, 11, " Java");
-        System.out.println(sb);   // Hello, Java
+        sb.replace(6, 12, "Java");
+        System.out.println(sb);   // Hello,Java
 
         // 5. delete() → delete part
         sb.delete(5, 6);
