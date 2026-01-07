@@ -1,5 +1,5 @@
 import java.util.*;
-// method overloading
+// method overloading or function overloading
 public class overloading {
     void display(){
         System.out.print("Hello");
