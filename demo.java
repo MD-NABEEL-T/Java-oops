@@ -1,10 +1,16 @@
 public class demo{
+    public static int evenorodd(int num){
+        if(num%2==0){
+            System.out.print("Even");
+        }
+        else System.out.print("odd");
+        return(num);
+    }
     public static void main(String []args){
-        String a="iron";
-        String b="iron";
-        String c=new String("iron");
-        String d=new String("iron");
-        System.out.println(a==b);
-        System.out.println(c==d);
+        int n=9;
+        evenorodd(n);
+        System.out.println();
+        demo obj=new demo();
+        obj.evenorodd(n);
     }
 }
