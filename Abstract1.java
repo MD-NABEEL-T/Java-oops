@@ -1,0 +1,30 @@
+// We use abstract methods when:
+// 1️⃣ We want to force subclasses to write their own logic
+
+// ❌ You cannot create object of abstract class
+// Animal a = new Animal(); // ❌ ERROR
+
+abstract class Animal {
+    abstract void sound(); // abstract method
+}
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+class Cat extends Animal {
+    void sound() {
+        System.out.println("Cat meows");
+    }
+}
+
+public class Abstract1{
+    public static void main(String args[]){
+        Animal a1 = new Dog();
+        a1.sound();
+
+        Animal a2 = new Cat();
+        a2.sound();
+    }
+}
