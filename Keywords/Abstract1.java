@@ -1,8 +1,13 @@
+package Keywords;
 // We use abstract methods when:
 // 1️⃣ We want to force subclasses to write their own logic
 
 // ❌ You cannot create object of abstract class
 // Animal a = new Animal(); // ❌ ERROR
+
+import Inheritance.Animal;
+import Inheritance.Cat;
+import Inheritance.Dog;
 
 abstract class Animal {
     abstract void sound(); // abstract method

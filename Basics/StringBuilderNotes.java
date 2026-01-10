@@ -1,3 +1,4 @@
+package Basics;
 public class StringBuilderNotes {
     public static void main(String[] args) {
 

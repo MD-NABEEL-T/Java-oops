@@ -1,5 +1,5 @@
+package Basics;
 public class Constructor2{
-
     // CONSTRUCTOR OVERLOADING
     Constructor2(){
         System.out.println("Nabeel");

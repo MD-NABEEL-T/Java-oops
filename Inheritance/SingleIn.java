@@ -1,3 +1,7 @@
+import Animal;
+import Dog;
+
+package Inheritance;
 class Animal{ //super class
     void eat(){ System.out.println("Eats");}
 }
