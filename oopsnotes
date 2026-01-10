@@ -7,3 +7,37 @@ Method Overloading:
 
 Method Overriding:
 👉 Redefining a parent class method in a child class with the same signature.
+
+
+Diff b/w functions and methods :
+👉 In Java, there are NO standalone functions.
+👉 Everything is a method.
+because
+A function is A block of code
+That exists independently (outside any class)
+which is NOT allowed in Java
+
+
+whereas methods is a block of code that:
+Is written inside a class
+Is called using an object or class name
+
+
+WHY USE NEW
+new = give memory + create object
+It tells Java:
+“Hey JVM, make a fresh object of this class.”
+👉 The new keyword is used to allocate memory and create an object of a class at runtime.
+
+
+WHY USE OBJECTS
+1️⃣ Access class members (methods & variables)
+2️⃣ Store data separately for each object
+3️⃣ Represent real-world entities
+4️⃣ Reuse the same class to create multiple objects
+
+
+Why main() is static 🔥 (INTERVIEW FAVORITE)
+
+👉 JVM must call main() without creating an object
+👉 So main() must be static
