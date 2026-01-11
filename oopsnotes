@@ -41,3 +41,5 @@ Why main() is static 🔥 (INTERVIEW FAVORITE)
 
 👉 JVM must call main() without creating an object
 👉 So main() must be static
+
+alright
