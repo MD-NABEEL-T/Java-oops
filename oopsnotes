@@ -51,3 +51,11 @@ alright
 
 // Abstract Class → YES, constructor is allowed
 // ❌ Interface → NO, constructor is NOT allowed
+
+
+Why .java while running is wrong
+| Command                   | Meaning                               |
+| ------------------------- | ------------------------------------- |
+| `javac Inheritance2.java` | Compile source file ✅                 |
+| `java Inheritance2`       | Run compiled class ✅                  |
+| `java Inheritance2.java`  | ❌ Wrong (Java tries to guess & fails) |
