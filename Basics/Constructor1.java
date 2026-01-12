@@ -1,4 +1,3 @@
-package basics;
 public class Constructor1{
     int age;
     String name;

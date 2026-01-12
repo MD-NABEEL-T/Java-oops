@@ -1,4 +1,3 @@
-package inheritance;
 class Dad{
     int money=10223;
 }
