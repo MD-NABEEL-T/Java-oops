@@ -1,4 +1,3 @@
-package Keywords;
 // one way
 // public class StaticKeyword{
 //     String name="Nabeel";

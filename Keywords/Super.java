@@ -1,4 +1,3 @@
-package Keywords;
 class Animal{
     Animal(String name){
         System.out.println(name);

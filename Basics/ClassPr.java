@@ -1,4 +1,3 @@
-package basics;
 class Laptop{
     String name="DELL";
 

@@ -9,7 +9,7 @@ class Student{
     }
 }
 
-public class Pen{
+class Pen{
     String color;
     String type;//ball or gell pen
     

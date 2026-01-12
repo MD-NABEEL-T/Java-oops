@@ -6,7 +6,7 @@ public class Constructor1{
         // System.out.println(a);
         // it shows error as not initialized .
         // whereas when we use object it does not show error because of constructor.
-        Constructor obj = new Constructor();
+        Constructor1 obj = new Constructor1();
         System.out.println(obj.name);//null
         System.out.println(obj.age);//0
     }
