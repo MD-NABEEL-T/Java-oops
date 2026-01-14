@@ -16,6 +16,9 @@ public class ExceptionHandling{
         catch(Exception e){
             System.out.println("Error");
         }
+        finally{
+            System.out.println("Alright done");
+        }
         s.close();
     }
 }
