@@ -1,0 +1,3 @@
+Object is the parent of ALL classes in Java.
+
+Every class you write automatically extends Object, even if you don’t write it.
