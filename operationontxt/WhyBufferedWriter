@@ -1,0 +1,14 @@
+Why do we use BufferedReader in Java?
+Short answer:
+
+👉 To read input faster and more efficiently.
+
+What problem does it solve?
+
+When Java reads input directly (from keyboard or file), it reads character by character.
+
+That means:
+
+Every read = slow system call
+
+Too many calls = slow program

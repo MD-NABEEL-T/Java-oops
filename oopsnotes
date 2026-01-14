@@ -61,3 +61,13 @@ Why .java while running is wrong
 | `javac Inheritance2.java` | Compile source file ✅                 |
 | `java Inheritance2`       | Run compiled class ✅                  |
 | `java Inheritance2.java`  | ❌ Wrong (Java tries to guess & fails) |
+
+
+throw is used to manually create and send an exception at runtime when a problem occurs.
+
+throws is used to tell the compiler that a method may throw an exception, and the caller must handle it.
+👉 It does NOT handle the exception
+👉 It only passes the responsibility to the caller
+
+in unchecked exception compiler does not force to handle it.
+in checked exception compiler forces to handle it.
