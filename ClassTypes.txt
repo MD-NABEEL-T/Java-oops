@@ -1,0 +1,78 @@
+1️⃣ Member Inner Class
+
+A normal class inside another class.
+
+Example
+class Outer {
+    int x = 10;
+
+    class Inner {
+        void show() {
+            System.out.println(x);
+        }
+    }
+
+    public static void main(String[] args) {
+        Outer o = new Outer();
+        Outer.Inner i = o.new Inner();
+        i.show();
+    }
+}
+
+Key points
+
+Needs object of outer class
+
+Can access outer class variables
+
+Used when inner class is tightly related to outer class
+
+2️⃣ Static Nested Class
+
+A static class inside another class.
+
+Example
+class Outer {
+    static int x = 20;
+
+    static class Inner {
+        void show() {
+            System.out.println(x);
+        }
+    }
+
+    public static void main(String[] args) {
+        Outer.Inner i = new Outer.Inner();
+        i.show();
+    }
+}
+
+Key points
+
+Does NOT need outer class object
+
+Can access only static members of outer class
+
+Used when inner logic is independent
+
+3️⃣ Anonymous Inner Class (MOST IMPORTANT)
+
+A class without a name, used once.
+
+Example (Interface)
+interface A {
+    void show();
+}
+
+public class Test {
+    public static void main(String[] args) {
+
+        A a = new A() {
+            public void show() {
+                System.out.println("Hello");
+            }
+        };
+
+        a.show();
+    }
+}

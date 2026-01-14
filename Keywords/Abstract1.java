@@ -4,6 +4,9 @@
 // ❌ You cannot create object of abstract class
 // Animal a = new Animal(); // ❌ ERROR
 
+import polymorphism.Animal;
+import polymorphism.Dog;
+
 abstract class Animal {
     abstract void sound(); // abstract method
 }

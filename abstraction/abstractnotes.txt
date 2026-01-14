@@ -1,0 +1,32 @@
+❓ Why abstract exists?
+Because sometimes:
+
+You know WHAT should happen
+
+But you don’t know HOW yet
+
+Example:
+All vehicles must start,
+but how they start is different.
+
+That’s abstraction.
+
+
+ALSO :
+What “concrete” means in Java
+A concrete class is a class that:
+is NOT abstract
+
+
+| Feature              | Abstract Class      | Interface                           |
+| -------------------- | ------------------- | ----------------------------------- |
+| Keyword              | `abstract class`    | `interface`                         |
+| Object creation      | ❌ Cannot create     | ❌ Cannot create                  |
+| Inheritance          | `extends`           | `implements`                        |
+| Multiple inheritance | ❌ Not supported     | ✅ Supported                      |
+| Methods              | Abstract + concrete | Abstract by default                 |
+| Method body          | Allowed             | Not allowed (except default/static) |
+| Constructor          | ✅ Allowed           | ❌ Not allowed                    |
+| Access modifiers     | Any                 | Methods are `public`                |
+
+refer keywords folder for more info

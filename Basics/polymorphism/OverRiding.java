@@ -1,3 +1,6 @@
+import Animal;
+import Dog;
+
 class Animal{
     String name;
     void makeSound(){

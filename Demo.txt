@@ -1,0 +1,54 @@
+🔥 1) Polymorphism (especially Runtime)
+
+Method Overloading (compile-time)
+
+Method Overriding + dynamic dispatch (run-time)
+👉 Make sure you have examples and understand why upcasting works.
+
+🔥 2) Abstraction (Abstract Classes & Methods)
+
+abstract class vs concrete
+
+how/when to use abstract
+
+abstract method must be overridden
+
+🔥 3) Interfaces
+
+Basic interface
+
+Interface vs abstract class differences
+
+Default & static methods (if Java ≥ 8)
+👉 Most beginner repos forget deep interface practice.
+
+🔥 4) Object Class Methods
+
+You must experiment overriding:
+
+toString()
+
+equals()
+
+hashCode()
+These matter before you use Collections (because collections depend on hashCode/equals).
+
+🔥 5) Exception Handling (OOP + real code safety)
+
+try-catch
+
+throw vs throws
+
+custom exceptions
+This isn’t strictly OOPS “pillar”, but most Java OOPS chapters include this before collections.
+
+🔥 6) Inner & Anonymous Classes
+
+Static nested class
+
+Member inner class
+
+Anonymous inner class
+✅ Helpful for many real-world patterns
+
+
