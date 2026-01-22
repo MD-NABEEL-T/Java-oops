@@ -1,5 +1,15 @@
 Revise this once in a while ok and dont worry about forgetting this because these are stuff used for interview and all not for daily implementing i think so cool
 
+string and stringbuilder difference is string creates another string when modified whereas stringbuilder doesnt create one
+
+🔹 Why main is static? 🤯
+public static void main(String[] args)
+
+
+👉 JVM starts program without creating object
+👉 So main must be static
+
+
 by convention use
 capital letter for first word for class name,interface
 and camel case for method name,variable name
