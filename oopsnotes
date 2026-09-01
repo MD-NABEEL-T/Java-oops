@@ -2,4 +2,8 @@ by convention use
 capital letter for class name
 and small lettter for function name.
 
-constr
+Method Overloading:
+👉 Using the same method name with different parameters in the same class.
+
+Method Overriding:
+👉 Redefining a parent class method in a child class with the same signature.
