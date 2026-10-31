@@ -4,7 +4,6 @@
 // public → accessible everywhere
 // default(no keyword) → same package only
 // private → same class only
-
 // protected → same package or it is accessible from other package only through extending the parent class of another package as a subclass in this package
 
 🔐 Access Modifiers in Java (One Clean Example)
