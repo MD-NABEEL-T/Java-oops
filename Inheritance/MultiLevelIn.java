@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 class Animal{
     void eat(){ 
         System.out.println("Eats");

@@ -1,0 +1,2 @@
+refer DiamondProbinMulti.png,MultipleInheritance.png
+Java does not support multiple inheritance using classes to avoid the diamond problem, but it supports it using interfaces.

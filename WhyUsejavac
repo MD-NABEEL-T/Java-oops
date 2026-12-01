@@ -1,0 +1,50 @@
+1️⃣ Java does NOT run files
+
+👉 Java runs classes.
+
+2️⃣ javac = Compile
+javac Abstract3.java
+
+
+✔ Converts .java → .class
+✔ Compiles all classes inside the file
+
+3️⃣ java = Run
+java Abstract3
+
+
+✔ Runs the class that has main()
+✔ Execution starts from:
+
+public static void main(String[] args)
+
+4️⃣ Why error happened earlier
+can't find main(String[]) method
+
+
+Because:
+
+Java tried to run a class without main()
+
+Abstract / helper classes cannot be run
+
+5️⃣ Rule to remember forever ⭐
+
+Only the class with main() can be run
+
+6️⃣ Correct order (always)
+javac FileName.java
+java ClassNameWithMain
+
+7️⃣ Example
+abstract class Vehicle { }   // ❌ cannot run
+class Car extends Vehicle { } // ❌ cannot run
+
+public class Abstract3 {     // ✅ run this
+    public static void main(String[] args) {
+    }
+}
+
+🧠 One-line exam answer
+
+Java execution starts from the main() method of the class given to the java command.

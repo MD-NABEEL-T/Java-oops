@@ -1,0 +1,10 @@
+// in interface all methods are abstract by default.
+// cannot create object for interface
+interface A {
+    int x = 10;
+}
+This is actually treated as:
+public static final int x = 10;
+
+extends → IS-A (single parent)
+implements → CAN-DO (multiple behaviors)

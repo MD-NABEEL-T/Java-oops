@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 public class forEach1{
     public static void main(String []args){
         int num[] ={1,2,3};

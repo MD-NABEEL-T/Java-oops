@@ -1,7 +1,7 @@
 import Animal;
 import Dog;
 
-package Inheritance;
+package inheritance;
 class Animal{ //super class
     void eat(){ System.out.println("Eats");}
 }

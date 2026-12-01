@@ -1,6 +1,7 @@
 by convention use
-capital letter for class name
-and small lettter for function name.
+capital letter for first word for class name,interface
+and camel case for method name,variable name
+for package use small letter
 
 Method Overloading:
 👉 Using the same method name with different parameters in the same class.
@@ -43,3 +44,10 @@ Why main() is static 🔥 (INTERVIEW FAVORITE)
 👉 So main() must be static
 
 alright
+
+// ❌ You cannot create object of abstract class
+// in interface all methods are abstract by default.
+// cannot create object for interface
+
+// Abstract Class → YES, constructor is allowed
+// ❌ Interface → NO, constructor is NOT allowed

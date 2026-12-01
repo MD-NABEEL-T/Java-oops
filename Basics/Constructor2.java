@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 public class Constructor2{
     // CONSTRUCTOR OVERLOADING
     Constructor2(){

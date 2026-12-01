@@ -1,7 +1,7 @@
 import Animal;
 import Dog;
 
-package Inheritance;
+package inheritance;
 class Animal{
     String name;
     void makeSound(){

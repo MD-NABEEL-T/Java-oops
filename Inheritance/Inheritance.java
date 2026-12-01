@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 class Dad{
     int money=10223;
 }
@@ -12,4 +12,4 @@ public class Inheritance{
     }
 }
 
-// FOUR TYPES : single,multilevel,Heirarchical,Hybrid = multi level+Heirarchical
+// FOUR TYPES : single,multilevel,Heirarchical,Hybrid = multi level+Heirarchical also multiple inheritance(interface)

@@ -1,4 +1,4 @@
-package Inheritance;
+package inheritance;
 import java.util.*;
 // method overloading or function overloading
 public class overloading {

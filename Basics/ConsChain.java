@@ -1,4 +1,4 @@
-package Basics;
+package basics;
 class ConsChain {
     ConsChain() {
         System.out.println("Default constructor");

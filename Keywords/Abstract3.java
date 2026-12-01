@@ -1,3 +1,4 @@
+// here i did not use return type for vehicle Type but when you are free do it ok
 abstract class Vehicle{
     abstract void drive();
 
@@ -20,7 +21,7 @@ class Car extends Vehicle{
     }
 // 👉 super can only be used inside a constructor or method, NOT directly inside the class body.
     void drive(){
-        System.out.println("Drive at right 2nd lane of the service road");
+        System.out.println("Drives at right 2nd lane of the service road");
     }
 }
 
@@ -38,7 +39,7 @@ public class Abstract3{
         Motorcycle bike1=new Motorcycle("Splendor");
         bike1.drive();
 
-        Car car1=new Car("Tata");
+        Car car1=new Car("Tata ");
         car1.drive();
     }
 }

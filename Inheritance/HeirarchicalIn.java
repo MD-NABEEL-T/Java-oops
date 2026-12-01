@@ -1,6 +1,6 @@
 import Keywords.Animal;
 
-package Inheritance;
+package inheritance;
 class Animal{
     void eat(){ 
         System.out.println("Eats");
